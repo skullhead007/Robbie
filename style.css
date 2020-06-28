@@ -1,0 +1,152 @@
+
+html
+{
+
+}
+.Header {
+    background-color: white;
+    
+    outline: 3px solid black;
+    font-size: 2em;
+    text-shadow: 2px 2px black;
+    
+    
+}
+
+#easy {
+	color: #16365d;
+}
+
+#cars {
+	color: #f6ce0a;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    outline: 3px solid #333333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #ffd88e;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-family: sans-serif; 
+}
+
+li a:hover {
+    background-color: #111111;
+}
+body
+{
+	font-family: sans-serif;
+	font-size: 1em;
+	line-height: 1.5em;
+
+}
+#one { 
+	  font-family: sans-serif;
+	  background-color: lightgrey;
+}
+#two { 
+	  font-family: sans-serif;
+	  background-color: grey;
+}
+
+
+img
+{    
+
+
+}
+h1{
+	text-align: left; 
+	color: black
+	;
+	text-transform: uppercase;
+
+}
+h2{
+	text-align: center;
+	padding: 10px;
+	padding-top: 1em;
+	text-transform: uppercase;
+}
+
+
+#con{
+	text-align: center;
+
+} 
+nav{
+	float: left;
+    padding-left: 30px;
+	margin-top:16px!important;margin-bottom:16px!important;
+}
+article{
+	float: right;
+	padding-top: 60px;
+	padding-right: 80px; 
+	margin-top:16px!important;margin-bottom:16px!important;
+}
+.w3-animate-fading{animation:fading 4.2s infinite}@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
+.w3-section,.w3-code{float: left;margin-top:16px!important;margin-bottom:16px!important}
+#ul{
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     width: 100%;
+     background-color: #333333;
+}
+#LIST{
+	float: left;
+    word-spacing: 5px;
+
+}
+a:link, a:visited
+{   display: block;
+	width: 120px;
+    font-weight:bold;
+    color: #ffd88e;
+  }
+  #formspace{
+  	font-family: serif;
+  	word-spacing: 8px;
+  	padding: 0.8em;
+  }
+
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#a {
+	text-align: center;
+	text-transform: uppercase;
+	color: blue;
+}
+#table1{
+     padding-top: 20px;
+     padding-left: 30px;
+
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}

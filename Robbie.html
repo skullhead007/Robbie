@@ -1,0 +1,66 @@
+<html>
+<head><title>Robbie</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style>
+div.fixed {
+  position: fixed;
+  bottom: 20;
+  right: 40;
+  width: 300px;
+  border: 3px solid #73AD21;
+}
+div.s1 {
+  position: fixed;
+  top: 220;
+  left: 240;
+ 
+  
+}
+
+body {
+  background-image: url('s1.jpg');
+}
+</style>
+</head>
+
+
+<body>
+
+  <nav>
+  <div class="s1" >
+  <img class="mySlides s1-animate-fading" src="s4.jpg" style="width: 60%">
+  <img class="mySlides s1-animate-fading" src="s2.jpg" style="width: 60%">
+  <img class="mySlides s1-animate-fading" src="s3.jpg" style="width: 100%">
+  </div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 4200);    
+}
+</script>
+  </nav>
+	
+<div class="fixed">			
+<iframe
+    allow="microphone;"
+    width="300"
+    height="450"
+    src="https://console.dialogflow.com/api-client/demo/embedded/d441ee8a-255e-467d-afd4-156ed8df6147">
+</iframe>
+		
+	</div> 
+   
+    <footer>Copyright&copy;2020 ABHI_COOL_.All Rights Reserved.</footer>
+</body>
+</html>
